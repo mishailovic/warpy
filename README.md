@@ -54,7 +54,7 @@ python3 main.py
 #### Windows
 
 - [Download Python](https://www.python.org/downloads/)
-- [Download or clone repo](https://github.com/mishailovic/warpy/archive/refs/heads/main.zip) and unpack it
-- From the this folder run cmd/powershell and excute following:
+- [Download repo](https://github.com/mishailovic/warpy/archive/refs/heads/main.zip) and unpack it
+- From folder of downloaded repo run cmd/powershell and excute following:
 - `py -m pip install -r requirements.txt`
 - Launch with - `py main.py` or by double-clicking on main.py
