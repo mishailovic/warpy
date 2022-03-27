@@ -1,16 +1,18 @@
+[RU](/README_RU.md) | [EN](/README.md)
+
 # Warpy
 
-## Утилита для накрутки гигабайтов в Cloudflare WARP+
+## Simple tool to add GBs to your Cloudflare WARP+ account
 
-### Конфигурация
+### Configuration
 
-В [config.py](/config.py) в переменной `REFERRER_ID` укажите свой Warp ID
+Edit `REFERRER_ID` in [config.py](/config.py) with your WARP id.
 
-`Где его взять?`
+`Where can I get my WARP id?`
 
 <details>
 
-<summary>На Windows</summary>
+<summary>Windows</summary>
 
 ![Windows-1](https://i.imgur.com/0II785o.png)
 
@@ -19,7 +21,7 @@
 
 <details>
 
-<summary>На Android</summary>
+<summary>Android</summary>
 
 ![Android-1](https://i.imgur.com/yuGbDwu.png)
 
@@ -31,7 +33,9 @@
 
 </details>
 
-### Установка на Linux
+### Installation
+
+#### Linux
 
 ```text
 // debian-based
@@ -47,10 +51,10 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-### Установка на Windows
+#### Windows
 
-- [Установите Python](https://www.python.org/downloads/)
-- [Скачайте репозиторий](https://github.com/mishailovic/warpy/archive/refs/heads/main.zip) и распакуйте его в удобное для вас место
-- В распакованной папке откройте cmd/powershell и выполните следующую команду
+- [Download Python](https://www.python.org/downloads/)
+- [Download or clone repo](https://github.com/mishailovic/warpy/archive/refs/heads/main.zip) and unpack it
+- From the this folder run cmd/powershell and excute following:
 - `py -m pip install -r requirements.txt`
-- Запуск - `py main.py` либо двойной клик по main.py
+- Launch with - `py main.py` or by double-clicking on main.py
