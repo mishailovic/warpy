@@ -16,7 +16,8 @@ class Warp:
 
     def register(self, referrer: str):
         response = self.session.post(
-            self.endpoint + "reg", json={"referrer": referrer},
+            f'{self.endpoint}reg', json={"referrer": referrer}
         ).json()
+
 
         return response["success"]
